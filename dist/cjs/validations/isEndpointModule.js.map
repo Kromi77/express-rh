@@ -1,0 +1,1 @@
+{"version":3,"file":"isEndpointModule.js","sourceRoot":"","sources":["../../../src/validations/isEndpointModule.ts"],"names":[],"mappings":";;AAEA,mCAKC;AALD,SAAwB,gBAAgB,CAAC,MAAuB;IAC5D,IAAI,CAAC,MAAM;QAAE,OAAO,KAAK,CAAC;IAC1B,IAAI,CAAC,MAAM,CAAC,QAAQ,IAAI,OAAO,MAAM,CAAC,QAAQ,KAAK,UAAU;QACzD,OAAO,KAAK,CAAC;IACjB,OAAO,IAAI,CAAC;AAChB,CAAC"}
