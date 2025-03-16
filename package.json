@@ -1,0 +1,56 @@
+{
+  "name": "@kromi77/express-rh",
+  "version": "0.0.1-alpha.1",
+  "description": "Self created routes handler for express.js",
+  "types": "./dist/types/index.d.ts",
+  "main": "./dist/cjs/index.js",
+  "exports": {
+    "require": "./dist/cjs/index.js",
+    "import": "./dist/esm/index.js",
+    "types": "./dist/types/index.d.ts"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "npm run build:cjs && npm run build:esm",
+    "build:cjs": "tsc -p tsconfig.cjs.json --resolveJsonModule",
+    "build:esm": "tsc -p tsconfig.esm.json --resolveJsonModule"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kromi77/express-routes-handler.git"
+  },
+  "keywords": [
+    "express",
+    "routes",
+    "handler",
+    "typescript",
+    "express.js",
+    "expressv4",
+    "expressv5",
+    "esm compatible",
+    "cjs compatible"
+  ],
+  "author": "Michał Krok",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kromi77/express-rh/issues"
+  },
+  "homepage": "https://github.com/Kromi77/express-rh#readme",
+  "devDependencies": {
+    "@express-rate-limit/tsconfig": "^1.0.2",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.10",
+    "express": "^5.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "peerDependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.0.1",
+    "express-rate-limit": "^7.3.1",
+    "picocolors": "^1.0.1"
+  }
+}

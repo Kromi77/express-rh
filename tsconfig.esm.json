@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "target": "esnext",
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "declarationDir": "./dist/types",
+        "outDir": "./dist/esm",
+        "resolvePackageJsonImports": true,
+        "lib": ["esnext", "dom"],
+    },
+}
