@@ -41,7 +41,6 @@ import path from "path";
 const routes = new ERH({
 	app: express(),
 	endpointsFolder: path.join(__dirname, "endpoints"),
-	useParentPath: true,
 	baseRoute: "/api/v1/",
 });
 ```
@@ -68,7 +67,6 @@ const path = require("path");
 const routes = new ERH({
 	app: express(),
 	endpointsFolder: path.join(__dirname, "endpoints"),
-	useParentPath: true,
 	baseRoute: "/api/v1/",
 });
 ```
