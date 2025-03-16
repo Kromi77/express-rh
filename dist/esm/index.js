@@ -118,6 +118,8 @@ class ERH {
             this._devModeRoute = devModeRoute;
         this._host = host ?? "localhost";
         this._port = port ?? 3000;
+        if (this._useParentPath && this._baseRoute != "/")
+            throw new Error(picocolors_1.default.red("ERH > You can't use parent path with base route"));
         this._useParentPath = useParentPath ?? false;
         if (staticBasePath)
             this._staticBasePath = staticBasePath;
