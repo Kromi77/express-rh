@@ -1,5 +1,4 @@
-## @kromi77/express-rh
-
+# @kromi77/express-rh
 ## Table of contents
 
 - [☕️ About-erh](#️-about-erh)
@@ -23,11 +22,15 @@ The package was created from a spontaneous idea that came up while my friends an
 ## 🔧 Installation
 For npm:
 
-```bash npm i @kromi77/express-rh```
+```bash 
+npm i @kromi77/express-rh
+```
 
 For bun:
 
-```bash bun add @kromi77/express-rh```
+```bash 
+bun add @kromi77/express-rh
+```
 
 ## 🚀 Quick start
 
