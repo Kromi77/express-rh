@@ -143,6 +143,9 @@ class ERH {
 		
 		this._host = host ?? "localhost";
 		this._port = port ?? 3000;
+    
+		if (useParentPath && this._baseRoute != "/") throw new Error(pc.red("ERH > You can't use parent path with base route"));
+		
 		this._useParentPath = useParentPath ?? false;
 		
 		if (staticBasePath) this._staticBasePath = staticBasePath;
