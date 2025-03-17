@@ -138,6 +138,11 @@ class ERH {
 		this._endpointsFolder = endpointsFolder;
 		
 		if (baseRoute) this._baseRoute = baseRoute;
+
+		// Add slash at the end of base route if user not provided it
+
+		if (!this._baseRoute.endsWith("/")) this._baseRoute += "/";
+
 		if (devMode) this._devMode = devMode;
 		if (devModeRoute) this._devModeRoute = devModeRoute;
 		
