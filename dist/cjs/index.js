@@ -80,6 +80,8 @@ class ERH {
             this._endpointsFolder = endpointsFolder;
             if (baseRoute)
                 this._baseRoute = baseRoute;
+            if (!this._baseRoute.endsWith("/"))
+                this._baseRoute += "/";
             if (devMode)
                 this._devMode = devMode;
             if (devModeRoute)
