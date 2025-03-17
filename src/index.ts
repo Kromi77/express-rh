@@ -139,7 +139,7 @@ class ERH {
 		
 		if (baseRoute) this._baseRoute = baseRoute;
 
-		// Add slash at the end of base route if user not provided itnpm deprecate @kromi77/express-rh@0.0.2-alpha.1 "This version has a bug. Please use 0.0.2-alpha.2 instead."
+		// Add slash at the end of base route if user not provided it
 
 		if (!this._baseRoute.endsWith("/")) this._baseRoute += "/";
 
