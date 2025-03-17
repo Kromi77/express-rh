@@ -138,6 +138,11 @@ class ERH {
 		this._endpointsFolder = endpointsFolder;
 		
 		if (baseRoute) this._baseRoute = baseRoute;
+
+		// Add slash at the end of base route if user not provided itnpm deprecate @kromi77/express-rh@0.0.2-alpha.1 "This version has a bug. Please use 0.0.2-alpha.2 instead."
+
+		if (!this._baseRoute.endsWith("/")) this._baseRoute += "/";
+
 		if (devMode) this._devMode = devMode;
 		if (devModeRoute) this._devModeRoute = devModeRoute;
 		
